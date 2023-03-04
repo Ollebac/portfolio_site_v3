@@ -21,7 +21,7 @@ const Navigation = () => {
         </li>
         <li className={styles.navlink}>
           <a href="./docs/IanCabelloResume.pdf" target="blank">
-            CV
+            Download CV
           </a>
         </li>
         <li className={styles.navlink}>

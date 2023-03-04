@@ -5,14 +5,6 @@ import utilStyles from "../../styles/utils.module.css";
 const Intro = () => {
   return (
     <section className={styles.profile_container}>
-      <div className={styles.profile_image}>
-        <Image
-          src="/images/profile-drawing-artist-thiennguyenhue.png"
-          height={500}
-          width={500}
-          alt="Ian Cabello Profile Image"
-        />
-      </div>
       <div className={styles.profile_content}>
         <h1 className={styles.profile_h1}>Hi, I'm Ian.</h1>
         <h2 className={styles.profile_h2}>
@@ -46,6 +38,13 @@ const Intro = () => {
           </a>
         </div>
       </div>
+      <Image
+        src="/images/profile-drawing-artist-thiennguyenhue.png"
+        className={styles.profile_image}
+        height={500}
+        width={500}
+        alt="Ian Cabello Profile Image"
+      />
     </section>
   );
 };
