@@ -19,12 +19,12 @@ const Navigation = () => {
         <li className={styles.navlink}>
           <a onClick={moveScreenProjects}>Projects</a>
         </li>
-        <li className={styles.navlink}>
+        <li className={(styles.navlink, styles.hide_mobile)}>
           <a href="./docs/IanCabelloResume.pdf" target="blank">
             Download CV
           </a>
         </li>
-        <li className={styles.navlink}>
+        <li className={(styles.navlink, styles.hide_mobile)}>
           <a href="mailto:me@ollebac.dev">Contact</a>
         </li>
       </ul>
