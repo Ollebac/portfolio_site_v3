@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.intro_text {
+  margin: 10px 0;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -32,7 +36,6 @@
 .description {
   text-align: center;
 }
-
 
 .description {
   line-height: 1.5;
