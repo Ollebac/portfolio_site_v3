@@ -26,13 +26,13 @@ const Intro = () => {
           .
         </p>
         <div className={styles.profile_buttons_container}>
-          <a href="mailto:me@ollebac.dev" className={utilStyles.button_fill}>
+          {/* <a href="mailto:me@ollebac.dev" className={utilStyles.button_fill}>
             Contact Me
-          </a>
+          </a> */}
           <a
             href="./docs/IanCabelloResume.pdf"
             target="blank"
-            className={utilStyles.button_clear}
+            className={utilStyles.button_fill}
           >
             Download CV
           </a>
