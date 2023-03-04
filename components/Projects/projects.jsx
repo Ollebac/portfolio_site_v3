@@ -71,7 +71,7 @@ const Projects = () => {
         }
         projectImage={"/images/watercolor-1.jpg"}
         projectLink={"https://ollebac.dev"}
-        githubLink={"https://github.com/Ollebac/portfolio_site"}
+        githubLink={"https://github.com/Ollebac/portfolio_site_v2"}
       />
       <CreateProject
         projectType={"Discord Bots"}
