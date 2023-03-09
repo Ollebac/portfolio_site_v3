@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer_container}>
       <ul>
-        <li className={styles.footer_header}>Want to get in touch?</li>
+        <li className={styles.header}>Want to get in touch?</li>
         <li className={styles.footer_content}>
           Please send me an email at{" "}
           <a className={styles.footer_links} href="mailto:me@ollebac.dev">
@@ -12,7 +12,7 @@ const Footer = () => {
           </a>
           .
         </li>
-        <li className={styles.footer_content}>
+        <li className={styles.additional_credits}>
           Artwork on this page was done by{" "}
           <a
             className={styles.footer_links}
@@ -30,8 +30,8 @@ const Footer = () => {
           .
         </li>
 
-        <li className={styles.additional_credits}>
-          {"  "} - Additional credits: Watercolor images done by{" "}
+        <li className={styles.watercolor_credits}>
+          Watercolor images done by{" "}
           <a
             className={styles.footer_links}
             href="https://www.123rf.com/profile_virtosmedia"
@@ -42,7 +42,7 @@ const Footer = () => {
           .
         </li>
 
-        <li className={styles.footer_content}>
+        <li className={styles.additional_credits}>
           Website is designed by me and built with{" "}
           <a
             className={styles.footer_links}

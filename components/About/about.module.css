@@ -1,13 +1,27 @@
 .about_container {
+  color: white;
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+  padding: 100px 20px 60px;
+  /* background-color: rgb(1, 14, 130); */
+  background-color: rgba(20, 31, 138, 0.852);
+  color: rgba(255, 255, 255, 0.728);
+}
+
+.about_content {
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
   align-content: center;
   margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.865);
 }
 
-.about_content {
-  padding: 10px 0 20px;
+.about_text {
+  padding: 20px 0 20px;
+}
+
+.header {
+  color: white;
 }
 
 .about_image {

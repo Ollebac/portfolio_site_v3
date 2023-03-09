@@ -1,18 +1,12 @@
 .backdrop {
   min-height: 100vh;
-  background-color: black;
+  background-color: rgb(162, 203, 237);
   background-size: 100% 100%;
 }
 
 .page_background {
-  max-width: 1300px;
-  background-image: linear-gradient(
-    to right,
-    black,
-    rgb(196, 255, 255) calc((100vw - 1000px) / 2),
-    rgb(196, 255, 255) calc((100vw - 1000px) / 2 + 1000px),
-    black
-  );
+  max-width: 1000px;
+  background-color: rgb(231, 242, 251);
   margin: auto;
 }
 
@@ -23,7 +17,7 @@
 }
 
 .main_container {
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 .menu_bubble {
@@ -40,12 +34,21 @@
 
 @media screen and (min-width: 1300px) {
   .page_background {
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
       to right,
       black,
       rgb(196, 255, 255) 150px,
       rgb(196, 255, 255) 1150px,
       black
-    );
+    ); */
+
+    /* background-image: linear-gradient(
+      to right,
+      black,
+      purple,
+      purple,
+      purple,
+      white
+    ); */
   }
 }

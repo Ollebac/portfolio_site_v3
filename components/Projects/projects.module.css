@@ -1,5 +1,5 @@
 .projects_container {
-  padding-bottom: 30px;
+  padding: 30px 20px;
 }
 
 .subproject_container {
@@ -10,7 +10,13 @@
 }
 
 .content_container {
-  padding: 10px 0 20px;
+  padding-bottom: 30px;
+}
+
+.header {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 35px;
 }
 
 .project_type {
@@ -31,28 +37,31 @@
 }
 
 .project_image {
-  display: block;
-  width: 350px;
-  border-radius: 50%;
-  margin: auto;
-  transform: scaleX(-1);
+  display: none;
 }
 
 .project_link {
   width: 30px;
   filter: invert(100%);
-  margin: 6px 10px 0 0;
+  margin: 10px 10px 0 0;
 }
 
 .project_description {
   font-size: 1rem;
-  padding: 5px 0;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .projects_closer {
   text-align: center;
   font-size: 0.9rem;
   font-style: italic;
+  padding: 10px 0;
+}
+
+.link {
+  color: rgb(1, 14, 130);
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
@@ -69,7 +78,7 @@
     display: block;
     width: 350px;
     border-radius: 50%;
-    margin: 30px;
+    margin: auto 30px;
     transform: scaleX(-1);
   }
 }

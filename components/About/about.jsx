@@ -4,12 +4,13 @@ import utilStyles from "../../styles/utils.module.css";
 
 const About = () => {
   return (
-    <>
-      <h2 className={utilStyles.header_fade} id="About">
-        About Me
-      </h2>
-      <section className={styles.about_container}>
-        <div className={styles.about_content}>
+    <section className={styles.about_container}>
+      <div className={styles.about_content}>
+        <div className={styles.about_text}>
+          <h2 className={styles.header} id="About">
+            About Me
+          </h2>
+          <div className={utilStyles.spacer}></div>
           <p className={utilStyles.standard_text}>
             In 2017, I started my professional career performing internal, IT
             audits where I used my coding knowledge to enhance control testing
@@ -38,8 +39,8 @@ const About = () => {
           width={500}
           alt="Drawing of my animals by l0a0n0"
         />
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 

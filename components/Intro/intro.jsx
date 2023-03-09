@@ -8,8 +8,7 @@ const Intro = () => {
       <div className={styles.profile_content}>
         <h1 className={styles.profile_h1}>Hi, I'm Ian.</h1>
         <h2 className={styles.profile_h2}>
-          Front End / Full Stack Developer.
-          <br />
+          Front End Developer & <br className={utilStyles.mobile_hide} />
           Designer.
         </h2>
         <p className={utilStyles.standard_text}>

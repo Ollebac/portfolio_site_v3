@@ -2,31 +2,31 @@
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  padding-bottom: 20px;
+  padding: 40px 20px 25px 20px;
   letter-spacing: 0.03rem;
 }
 
 .profile_content {
   margin: auto;
-  padding: 10px 0 20px;
 }
 
 .profile_image {
   width: 300px;
   align-self: center;
   background-color: rgba(68, 68, 68, 0.087);
-  padding: 20px 30px;
-  border-radius: 50%;
+  padding: 30px;
   margin-bottom: 30px;
+  border-radius: 50%;
 }
 
 .profile_h1 {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 
 .profile_h2 {
   font-size: 1.5rem;
+  font-style: italic;
 }
 
 .profile_text_link {
@@ -36,8 +36,7 @@
 .profile_buttons_container {
   display: flex;
   justify-content: center;
-  margin: 0px 0;
-  text-align: center;
+  margin-top: 30px;
   font-weight: 600;
   font-size: 1rem;
 }
@@ -51,7 +50,6 @@
     width: 350px;
     background-color: transparent;
     border-radius: 0;
-    margin: 30px;
   }
 
   .profile_content {

@@ -20,36 +20,36 @@
 .headingMd {
   font-size: 1.2rem;
   font-weight: 500;
-
   line-height: 1.5;
-}
-
-.header_fade {
-  margin: 10px 0;
-  padding: 15px;
-  background-image: radial-gradient(white, rgb(196, 255, 255) 85%);
-  text-align: center;
 }
 
 .button_fill {
   padding: 8px 20px;
-  margin: 15px;
+  margin: 0 15px;
   border-radius: 25px;
-  border: 2px solid rgba(10, 0, 105, 0.82);
-  background-color: rgba(10, 0, 105, 0.82);
+  border: 2px solid rgb(1, 14, 130);
+  background-color: rgb(1, 14, 130);
   color: white;
   cursor: pointer;
   width: 190px;
+  text-align: center;
 }
 
 .button_clear {
   padding: 8px 20px;
-  margin: 15px;
+  margin: 0 15px;
   border-radius: 25px;
-  border: 2px solid rgba(10, 0, 105, 0.82);
-  color: rgba(10, 0, 105, 0.82);
+  border: 2px solid rgb(1, 14, 130);
+  color: rgb(1, 14, 130);
   cursor: pointer;
-  width: 190px;
+  width: 10px;
+  text-align: center;
+}
+
+.spacer {
+  margin: 10px 0;
+  height: 2px;
+  background-color: white;
 }
 
 .borderCircle {
@@ -61,7 +61,7 @@
 }
 
 .standard_text {
-  margin: 15px 0;
+  margin-top: 15px;
   font-size: 1rem;
 }
 
@@ -88,4 +88,14 @@
   align-self: center;
   justify-self: center;
   margin: auto;
+}
+
+.mobile_hide {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile_hide {
+    display: block;
+  }
 }

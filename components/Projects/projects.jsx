@@ -59,13 +59,13 @@ const CreateProject = ({
 const Projects = () => {
   return (
     <section className={styles.projects_container}>
-      <h1 className={utilStyles.header_fade} id="Projects">
-        Projects
+      <h1 className={styles.header} id="Projects">
+        Work Projects
       </h1>
       <CreateProject
         projectType={"Web App"}
         projectName={"Portfolio Website"}
-        projectLanguages={"Next.js, React, JavaScript, HTML, CSS, GoogleCloud"}
+        projectLanguages={"Next.js, JavaScript, HTML, CSS, Vercel"}
         projectDescription={
           "I designed and developed this portfolio for personal use. I personally styled this site after researching UI design through articles and observation. I also collaborated with multiple illustrators and graphic designers for their contributions to the site."
         }
@@ -81,7 +81,7 @@ const Projects = () => {
           "Elder Drake: Added functionality to an existing fan-made Discord bot for the game League of Legends. The added functionality allows a user to pass an in-game item as input to the bot. The bot will then parse responses from a complicated and poorly maintained API. A message then displays the item's info to the user."
         }
         projectDescription2={
-          "Superbot: Designed and developed a custom Discord bot alongside another developer for a Twitch stream. We utilized agile methodology to get the bot up and running quickly while slowly adding additional functionality, including a user base, queue system, and Twitch integration"
+          "Superbot: Designed and developed a custom Discord bot alongside another developer for a Twitch stream. We utilized agile methodology to get the bot up and running quickly while slowly adding additional functionality, including a user base, queue system, and Twitch integration."
         }
         projectImage={"/images/watercolor-2.jpg"}
         projectLink={""}
@@ -103,9 +103,13 @@ const Projects = () => {
         }
       />
       <p className={styles.projects_closer}>
-        For additional projects, please see my{" "}
-        <a href="https://github.com/ollebac" target="blank">
-          Github
+        For additional mini projects, please see my{" "}
+        <a
+          href="https://github.com/ollebac"
+          className={styles.link}
+          target="blank"
+        >
+          GitHub
         </a>
         .
       </p>
