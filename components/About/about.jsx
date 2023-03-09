@@ -4,12 +4,10 @@ import utilStyles from "../../styles/utils.module.css";
 
 const About = () => {
   return (
-    <section className={styles.about_container}>
+    <section className={styles.about_container} id="About">
       <div className={styles.about_content}>
         <div className={styles.about_text}>
-          <h2 className={styles.header} id="About">
-            About Me
-          </h2>
+          <h2 className={styles.header}>About Me</h2>
           <div className={utilStyles.spacer}></div>
           <p className={utilStyles.standard_text}>
             In 2017, I started my professional career performing internal, IT

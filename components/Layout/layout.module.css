@@ -5,19 +5,15 @@
 }
 
 .page_background {
-  max-width: 1000px;
+  max-width: 1200px;
   background-color: rgb(231, 242, 251);
   margin: auto;
 }
 
 .page_content {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   position: relative;
-}
-
-.main_container {
-  /* padding: 0 20px; */
 }
 
 .menu_bubble {
@@ -30,25 +26,4 @@
   top: 40px;
   background-image: radial-gradient(white, gray);
   border-radius: 50%;
-}
-
-@media screen and (min-width: 1300px) {
-  .page_background {
-    /* background-image: linear-gradient(
-      to right,
-      black,
-      rgb(196, 255, 255) 150px,
-      rgb(196, 255, 255) 1150px,
-      black
-    ); */
-
-    /* background-image: linear-gradient(
-      to right,
-      black,
-      purple,
-      purple,
-      purple,
-      white
-    ); */
-  }
 }

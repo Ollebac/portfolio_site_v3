@@ -1,7 +1,7 @@
 .about_container {
   color: white;
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
-  padding: 100px 20px 60px;
+  padding: 100px 20px 80px;
   /* background-color: rgb(1, 14, 130); */
   background-color: rgba(20, 31, 138, 0.852);
   color: rgba(255, 255, 255, 0.728);
@@ -30,17 +30,25 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about_container {
+  .about_content {
     flex-direction: row-reverse;
   }
 
-  .about_content {
+  .about_text {
     margin: auto;
     width: 475px;
   }
 
   .about_image {
     width: 350px;
-    margin: auto 30px;
+    margin: auto;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .about_image {
+    width: 450px;
+    padding: 0;
   }
 }

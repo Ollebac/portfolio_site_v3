@@ -58,10 +58,8 @@ const CreateProject = ({
 
 const Projects = () => {
   return (
-    <section className={styles.projects_container}>
-      <h1 className={styles.header} id="Projects">
-        Work Projects
-      </h1>
+    <section className={styles.projects_container} id="Projects">
+      <h1 className={styles.header}>Work Projects</h1>
       <CreateProject
         projectType={"Web App"}
         projectName={"Portfolio Website"}
