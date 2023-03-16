@@ -5,7 +5,7 @@ import Projects from "../components/Projects/projects";
 import About from "../components/About/about";
 import Footer from "../components/Footer/footer";
 import utilStyles from "../styles/utils.module.css";
-import styles from "../styles/home.module.css";
+
 import { useEffect } from "react";
 import { initOciliator } from "../components/osciliator";
 
@@ -17,7 +17,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={styles.page_background}>
+    <div className={utilStyles.page_background}>
       <Head>
         <title>{siteTitle}</title>
       </Head>
