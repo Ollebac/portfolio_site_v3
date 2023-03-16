@@ -1,13 +1,5 @@
 import styles from "./navigation.module.css";
 
-function moveScreenAbout() {
-  document.getElementById("About").scrollIntoView({ behavior: "smooth" });
-}
-
-function moveScreenProjects() {
-  document.getElementById("Projects").scrollIntoView({ behavior: "smooth" });
-}
-
 const Navigation = () => {
   return (
     <>

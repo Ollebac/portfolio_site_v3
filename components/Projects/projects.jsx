@@ -1,7 +1,5 @@
 import Image from "next/image";
 import styles from "./projects.module.css";
-import utilStyles from "../../styles/utils.module.css";
-import { useEffect } from "react";
 
 const CreateProject = ({
   projectType,
@@ -58,12 +56,6 @@ const CreateProject = ({
     // </div>
   );
 };
-
-// My third iteration of my personal website built with Next.js,
-//             Javascript, and CSS, hosted on Vercel. I personally designed and
-//             styled this site in Figma after researching UI design through
-//             articles, videos, and observation. I Project details in short
-//             description and such.
 
 const Projects = () => {
   return (

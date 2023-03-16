@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./intro.module.css";
-import utilStyles from "../../styles/utils.module.css";
 
 const Intro = () => {
   return (
