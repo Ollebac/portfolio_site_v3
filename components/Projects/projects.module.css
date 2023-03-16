@@ -1,21 +1,22 @@
 .projects_section {
-  margin: 100px auto;
+  margin: 120px auto;
 }
 
 .all_projects_container {
   display: flex;
-  overflow-x: hidden;
+  overflow-x: scroll;
+  scrollbar-width: none;
   scroll-snap-type: x mandatory;
   padding: 85px 0 20px;
   position: relative;
-  margin: 0 auto 100px;
+  margin: 0 auto 20px;
 }
 
 .individual_project_container {
   scroll-snap-align: center;
   width: calc(100vw - 40px);
   max-width: 450px;
-  height: 100%;
+  min-height: 100%;
   margin: 0 40px;
   flex-shrink: 0;
   padding: 90px 30px 60px;
@@ -53,9 +54,9 @@
   display: flex;
   position: absolute;
   bottom: 20px;
-  overflow-x: hidden;
+  overflow-x: scroll;
+  scrollbar-width: none;
   width: 75%;
-  /* justify-content: space-between; */
 }
 
 .project_language {
@@ -80,7 +81,7 @@
 .swipe_icon {
   position: relative;
   display: block;
-  margin: 40px auto;
+  margin: auto auto 50px auto;
 }
 
 .show_more_button {
@@ -141,6 +142,7 @@
     grid-template-columns: 450px 450px;
     gap: 85px 40px;
     width: 1020px;
+    overflow-x: hidden;
   }
 
   .individual_project_container {
