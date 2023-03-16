@@ -1,3 +1,7 @@
+.page_background {
+  background-color: black;
+}
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -5,10 +9,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.intro_text {
-  margin: 10px 0;
 }
 
 .title a {

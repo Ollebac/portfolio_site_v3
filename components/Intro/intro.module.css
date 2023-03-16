@@ -1,67 +1,128 @@
 .profile_container {
+  padding: 0 20px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 40px 20px 25px 20px;
-  letter-spacing: 0.03rem;
+  position: relative;
+  max-width: 1500px;
+  margin: 60px auto 20px;
+  text-align: center;
 }
 
 .profile_content {
   margin: auto;
+  max-width: 400px;
+}
+
+.profile_image_container {
+  margin: 50px auto auto;
+  display: inline-block;
+  width: 80%;
+  max-width: 350px;
+  position: relative;
+}
+
+.profile_image_container::after {
+  content: "";
+  position: absolute;
+  border: 3px solid #1d7fd9;
+  border-radius: 10px;
+  top: 15px;
+  left: 15px;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.profile_image_container:hover::after {
+  box-shadow: 0 0 10px #1d7fd9;
+  border-radius: 10px;
+  translate: 10px 5px;
+  transition: 0.3s;
 }
 
 .profile_image {
-  width: 300px;
-  align-self: center;
-  background-color: rgba(68, 68, 68, 0.087);
+  width: 100%;
+  margin-right: 30px;
   padding: 30px;
-  margin-bottom: 30px;
-  border-radius: 50%;
+  background-color: rgba(158, 158, 158);
+  /* filter: sepia(100%) hue-rotate(180deg) saturate(500%); */
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.profile_image:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
 }
 
 .profile_h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-style: italic;
+  color: #1d7fd9;
+  margin-top: 30px;
 }
 
 .profile_h2 {
-  font-size: 1.5rem;
-  font-style: italic;
+  color: rgba(255, 255, 255, 0.519);
+  line-height: 35px;
 }
 
-.profile_text_link {
-  color: rgba(10, 0, 105, 0.82);
-}
-
-.profile_buttons_container {
+.download_container {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
-  font-weight: 600;
+  margin: 30px auto auto;
+  border: 1px solid #1d7fd9;
+  border-radius: 10px;
+  width: 160px;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.download_container:hover {
+  box-shadow: 0 0 5px white;
+  color: white;
+  border: 1px solid white;
+  transition: 0.5s;
+}
+
+.download_text {
+  margin: auto;
+  align-self: center;
   font-size: 1rem;
+  padding: 10px;
+}
+
+.download_image {
+  margin: auto 7px auto 0;
 }
 
 @media screen and (min-width: 768px) {
   .profile_container {
     flex-direction: row;
-    justify-content: space-between;
+    text-align: right;
   }
 
-  .profile_image {
-    width: 350px;
-    margin: auto;
-    background-color: transparent;
-    border-radius: 0;
+  .profile_image_container {
+    max-width: 400px;
+    margin: auto 10% auto auto;
   }
 
   .profile_content {
-    width: 475px;
-    margin: auto;
+    padding-right: 50px;
+    max-width: 50%;
+    margin-left: 6%;
+  }
+
+  .download_container {
+    margin-right: 40px;
+    transform: scale(1.1);
   }
 }
 
 @media screen and (min-width: 1080px) {
-  .profile_image {
-    width: 450px;
+  .profile_image_container {
+    max-width: 500px;
   }
 }

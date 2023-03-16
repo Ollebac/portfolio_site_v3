@@ -1,3 +1,25 @@
+.cursor {
+  /* position: absolute;
+  height: 60px;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 20px 20px 0 0;
+  background-color: #fff;
+  transform-origin: bottom center;
+  transform: translateY(60px);
+  transition: transfomr 0.2s ease-out;
+  z-index: 1; */
+  position: fixed;
+  /* background-color: red; */
+  /* width: 1200px;
+  height: 1200px; */
+  /* border-radius: 50%;
+  border: 1px solid #f00; */
+  /* z-index: 1; */
+  pointer-events: none;
+  /* transition: transform 0.6s ease-out; */
+}
+
 .heading2Xl {
   font-size: 2.5rem;
   font-weight: 500;
@@ -25,10 +47,10 @@
 
 .button_fill {
   padding: 8px 20px;
-  margin: 0 15px;
+  margin: 0 10x;
   border-radius: 25px;
-  border: 2px solid rgb(1, 14, 130);
-  background-color: rgb(1, 14, 130);
+  border: 2px solid rgba(20, 31, 138, 0.852);
+  background-color: rgba(20, 31, 138, 0.852);
   color: white;
   cursor: pointer;
   width: 190px;
@@ -36,13 +58,13 @@
 }
 
 .button_clear {
-  padding: 8px 20px;
+  padding: 8px 10px;
   margin: 0 15px;
   border-radius: 25px;
-  border: 2px solid rgb(1, 14, 130);
-  color: rgb(1, 14, 130);
+  border: 2px solid rgba(20, 31, 138, 0.852);
+  color: rgba(20, 31, 138, 0.852);
   cursor: pointer;
-  width: 10px;
+  width: 190px;
   text-align: center;
 }
 

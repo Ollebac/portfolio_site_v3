@@ -3,57 +3,17 @@ import styles from "./footer.module.css";
 const Footer = () => {
   return (
     <footer className={styles.footer_container}>
-      <ul>
-        <li className={styles.header}>Want to get in touch?</li>
-        <li className={styles.footer_content}>
-          Please send me an email at{" "}
-          <a className={styles.footer_links} href="mailto:me@ollebac.dev">
-            me@ollebac.dev
-          </a>
-          .
-        </li>
-        <li className={styles.additional_credits}>
-          Artwork on this page was done by{" "}
-          <a
-            className={styles.footer_links}
-            href="https://www.fiverr.com/thiennguyenhue"
-          >
-            thiennguyenhue
-          </a>{" "}
-          and{" "}
-          <a
-            className={styles.footer_links}
-            href="https://ollebac.dev/www.fiverr.com/l0a0n0"
-          >
-            l0a0n0
-          </a>
-          .
-        </li>
-
-        <li className={styles.watercolor_credits}>
-          Watercolor images done by{" "}
-          <a
-            className={styles.footer_links}
-            href="https://www.123rf.com/profile_virtosmedia"
-            target="blank"
-          >
-            virtosmedia
-          </a>
-          .
-        </li>
-
-        <li className={styles.additional_credits}>
-          Website is designed by me and built with{" "}
-          <a
-            className={styles.footer_links}
-            href="https://nextjs.org/"
-            target="blank"
-          >
-            Next.js
-          </a>
-          .
-        </li>
-      </ul>
+      <h3 className={styles.header}>Get In Touch</h3>
+      <p className={styles.contact_text}>
+        I am currently searching for a remote position in Front End / Full Stack
+        Development or onsite in the New York or Charlotte, NC areas. Please
+        feel free to reach out if you would like to work together or if you have
+        any questions and I’ll get back to you as soon as I can!
+      </p>
+      <a href="mailto:iancabello16@gmail.com" className={styles.email_button}>
+        Email Me
+      </a>
+      <h4 className={styles.built_text}>Designed and Built by Ian Cabello</h4>
     </footer>
   );
 };
